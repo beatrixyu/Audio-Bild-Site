@@ -122,7 +122,7 @@ header a {
   align-items: center;
 }
 
-i {
+.icon i {
   text-align: center;
   padding: 20% 10%;
   color: white;
@@ -170,6 +170,45 @@ iframe {
   justify-content: center;
 }
 
+.service {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(221, 215, 215);
+  color: grey;
+  text-align: center;
+}
+
+.service1 h5,
+.service2 h5,
+.service3 h5,
+.service4 h5,
+.service5 h5,
+.service6 h5,
+.service7 h5,
+.service8 h5 {
+  font-size: 12px;
+  height: 300px;
+  width: 150px;
+}
+
+.serviceOne {
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+}
+
+.serviceTwo {
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+}
+.service i {
+  text-align: center;
+  padding: 2% 5%;
+  color: rgb(68, 66, 66);
+}
 .quato {
   width: 100%;
   height: 300px;
