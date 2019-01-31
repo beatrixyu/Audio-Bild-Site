@@ -1,0 +1,252 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1%;
+  top: 0px;
+  background: rgba(250, 250, 250, 0.3);
+  text-decoration: none;
+  z-index: 1;
+  text-shadow: 1px 1px 1px black;
+}
+
+nav {
+  margin-right: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  color: turquoise;
+  font-weight: bolder;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+header a,
+nav ul li a {
+  text-decoration: none;
+  color: turquoise;
+}
+
+header a {
+  font-size: 25px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://source.unsplash.com/random/750x600");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.content {
+  width: 30%;
+  float: right;
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+  margin-right: 5%;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 5%;
+}
+
+.content button {
+  border-radius: 10px;
+  background-color: rgb(64, 224, 208, 0.9);
+  height: 40px;
+  width: 150px;
+  color: white;
+}
+
+.aboutUs {
+  width: 30%;
+  height: 100px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+/* .test {
+  background-image: url();
+  background-repeat: round;
+} */
+.skill img {
+  width: 50%;
+  float: right;
+}
+
+.skillBar {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.skillBar meter {
+  background-color: turquoise;
+  width: 400px;
+}
+
+.icon {
+  clear: both;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  display: flex;
+  color: white;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+i {
+  text-align: center;
+  padding: 20% 10%;
+  color: white;
+}
+
+.icon {
+  height: 200px;
+  width: 100%;
+}
+
+.test {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(185, 179, 179);
+  height: 500px;
+}
+.testImg {
+  width: 100%;
+  margin: 0;
+  padding: 0 0.5%;
+}
+
+.test img {
+  width: 24.5%;
+  height: 200px;
+}
+.testImg h5 {
+  color: black;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.process {
+  width: 30%;
+  height: 100px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.quato {
+  width: 100%;
+  height: 300px;
+  background-color: turquoise;
+  text-align: center;
+  padding-top: 6%;
+}
+.quato div {
+  width: 30%;
+  height: 100px;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  top: 10px;
+}
+
+.sponsor {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+
+.sponsor img {
+  border-radius: 50%;
+}
+
+.contact {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(221, 215, 215);
+}
+
+.contactForm {
+  width: 35%;
+  height: 500px;
+  margin: 5% auto;
+  text-align: center;
+  padding-top: 4%;
+  border-radius: 5px;
+}
+
+input .formButton {
+  background-color: rgba(79, 236, 215, 0.6);
+  width: 300px;
+  height: 200px;
+  box-shadow: 2px, 2px, 1px, grey;
+  border-radius: 10px;
+  color: white;
+}
+
+.nameInput {
+  width: 200px;
+  height: 30px;
+}
+.emailInput {
+  width: 200px;
+  height: 30px;
+}
+
+.titleInput {
+  width: 410px;
+  height: 30px;
+}
+
+.textInput {
+  width: 410px;
+  height: 120px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
