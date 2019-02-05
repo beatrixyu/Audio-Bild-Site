@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 header a {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bolder;
   text-shadow: 1px 1px 1px black;
   display: flex;
@@ -77,7 +77,7 @@ header a {
   color: white;
 }
 
-.aboutUs {
+#aboutUs {
   width: 30%;
   height: 100px;
   margin: 10% auto;
@@ -88,7 +88,7 @@ header a {
   background-image: url();
   background-repeat: round;
 } */
-.skill img {
+#skill img {
   width: 50%;
   float: right;
 }
@@ -97,7 +97,7 @@ header a {
   width: 40%;
   float: left;
   margin-left: 5%;
-  margin-top: 2%;
+  margin-top: 10%;
 }
 .skillBar meter::-webkit-meter-optimum-value {
   box-shadow: 0 5px 5px -5px #999 inset;
@@ -142,7 +142,7 @@ header a {
   width: 100%;
 }
 
-.test {
+#test {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -155,7 +155,7 @@ header a {
   padding: 0 0.5%;
 }
 
-.test img {
+#test img {
   width: 24.5%;
   height: 200px;
 }
@@ -165,7 +165,7 @@ header a {
   margin-top: 3%;
 }
 
-.process {
+#process {
   width: 30%;
   height: 100px;
   margin: 10% auto;
@@ -179,7 +179,7 @@ iframe {
   justify-content: center;
 }
 
-.service {
+#service {
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -213,7 +213,7 @@ iframe {
   justify-content: space-around;
   margin: 3%;
 }
-.service i {
+#service i {
   text-align: center;
   padding: 2% 5%;
   color: rgb(68, 66, 66);
@@ -246,9 +246,9 @@ iframe {
   border-radius: 50%;
 }
 
-.contact {
+#contact {
   width: 100%;
-  height: 500px;
+  height: 600px;
   margin: 0 auto;
   text-align: center;
   background-color: rgb(221, 215, 215);
@@ -257,7 +257,7 @@ iframe {
 .contactForm {
   width: 35%;
   height: 500px;
-  margin: 5% auto;
+  margin: auto;
   text-align: center;
   padding-top: 4%;
   border-radius: 5px;
@@ -292,6 +292,14 @@ iframe {
   height: 120px;
 }
 
+.email {
+  text-decoration: none;
+}
+
+.email:link {
+  color: white;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -299,5 +307,13 @@ footer {
   padding-left: 2%;
   padding-right: 2%;
   background-color: black;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer:link {
   color: white;
 }
